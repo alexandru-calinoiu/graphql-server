@@ -4,13 +4,18 @@
   "description": "https://medium.freecodecamp.org/a-beginners-guide-to-graphql-86f849ce1bec",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "graphpack",
+    "build": "graphpack build"
   },
   "keywords": [],
   "author": "Calin",
   "license": "ISC",
   "repository": "https://github.com/alexandru-calinoiu/graphql-server",
   "devDependencies": {
-    "graphpack": "^1.0.6"
+    "apollo-server": "^2.3.3",
+    "eslint": "^5.14.1",
+    "graphpack": "^1.0.6",
+    "graphql": "^14.1.1"
   }
 }
